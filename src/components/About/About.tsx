@@ -26,7 +26,7 @@ export function About() {
                     Mi experiencia en las ciencias económicas aporta una perspectiva versátil para abordar desafíos, y estoy emocionada por seguir 
                     creciendo y enfrentar nuevos proyectos tecnológicos, siempre abierta a colaboraciones y aprendizaje en equipo.
                     Estoy en constante estudio, me gusta aprender nuevas tecnologías y mejorar las que ya conozco, creo que lo más hermoso 
-                    de este campo es que está en constante evolución y siempre hay algo más que aprender; es por ello que puedo contribuir 
+                    de este campo es que está en constante evolución y siempre hay algo más que aprender, es por ello que puedo contribuir 
                     significativamente en cualquier entorno.
                     Mi campo de interes principal es el desarrollo Fronted.
                     Actualmente estoy aprendiendo TypeScript y me interesa aprender Angular en un futuro. </p>
