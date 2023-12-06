@@ -34,10 +34,10 @@ export function Certificates() {
                 height={300}
                 alt="Certificado"
                 priority
-                className="ml-10"
+                className="md:ml-6"
                 />
                <p className="text-center mt-2 text-secondary">{certificado.text}</p>
-               <div className="flex text-center mt-2 max-w-md max-h-20 pl-8 ml-4">{certificado.description}</div>
+               <div className="flex md:text-center mt-2 max-w-md max-h-20 md:pl-8 md:ml-4">{certificado.description}</div>
                </motion.div>
                ))}
             </div>

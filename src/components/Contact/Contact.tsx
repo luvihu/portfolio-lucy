@@ -13,10 +13,10 @@ export function Contact() {
           initial="hidden"
           animate="show"
           exit="hidden"
-          className="mt-44 text-2xl text-center md:text-4-xl "
+          className="mt-44 text-2xl text-center md:text-4-xl h-auto w-auto "
           ><span className="text-secondary pl-24">Encuentrame</span> en: 
       </motion.h1>
-      <div className='flex justify-center items-center gap-10 mt-6'>
+      <div className='flex md:justify-center md:items-center md:flex-row md:gap-10 flex-col gap-8 items-center mt-6 h-auto w-auto'>
       <Image src="/assets/contactam.png" priority width="300" height="300" alt="lucy" />
       <a href="https://github.com/luvihu" target="_blank" rel="noopener noreferrer"><SiGithub size="45"/></a>
       <a href="https://www.linkedin.com/in/lucyvillogas/" target="_blank" rel="noopener noreferrer"><RiLinkedinFill size="45"/></a>
