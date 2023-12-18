@@ -28,7 +28,7 @@ export function Navbar() {
                         </Link>
                     </div>
                 ))}
-                <Link href="/assets/cvLucyVillogas.pdf" passHref legacyBehavior>
+                <Link href="/assets/CvLucyVillogas.pdf" passHref legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer" className="flex items-center "><RiFileTextLine size="30" /><span className="ml-2">CV</span>         
                   </a>
                 </Link>
