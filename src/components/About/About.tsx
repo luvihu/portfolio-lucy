@@ -19,7 +19,7 @@ export function About() {
                 transition={motionTransitionsAbout.transition}
                 className="md:ml-4"
             >
-                <h1 className="mb-2 md:text-xl mt-6"><br /></h1>
+                <h1 className="mb-2 md:text-xl mt-7"><br /></h1>
                  <p className="mb-6">Acerca de mí: <br/>Soy Licenciada en Economía, sin embargo, siempre sentí gran interés y admiración por la programación, lo cual me impulsó a 
                     adentrarme en el mundo de la tecnología, luego de un buen tiempo siendo autodidacta decidí afianzar mis conocimientos en 
                     el bootcamp Henry donde me gradué luego de mas de +800hs de aprendizaje.
