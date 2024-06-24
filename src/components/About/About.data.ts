@@ -21,13 +21,13 @@ export const dataAboutSkills = [
     text: "Experiencia",
     skills: [
       {
-        title: "Desarrollor Web Full Stack - StartUp Innevo tech (Marzo 2024- Mayo 2024)",
+        title: "* Desarrollor Web Full Stack - StartUp Innevo tech prácticas (Marzo 2024- Mayo 2024)",
       },
       {
-        title: "Desarrollo webs de E-commerce",
+        title: "* Desarrollo de webs E-commerce",
       },
       {
-        title: "Desarrollo Single Page ",
+        title: "* Desarrollo de Single Page ",
       }
     ],
   },
