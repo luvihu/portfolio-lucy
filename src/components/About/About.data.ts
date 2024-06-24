@@ -5,13 +5,13 @@ export const dataAboutSkills = [
     text: "Skills",
     skills: [
       {
-        title: "JavaScript - React - Node.js - Express",
+        title: "JavaScript - TypeScript - Node.js - Express",
        },
      {
-        title: "Postgres - MySql - Nextjs - Sequelize",
+        title: "MongoDb - Postgres - Angular - Nextjs ",
       },
       {
-        title: "Figma - Css - Tailwind",
+        title: "React - Bootstrap - Tailwind - Css",
       },
       
     ],
@@ -21,11 +21,14 @@ export const dataAboutSkills = [
     text: "Experiencia",
     skills: [
       {
-        title: "Desarrollo de una Single Page Application",
+        title: "Desarrollor Web Full Stack - StartUp Innevo tech (Marzo 2024- Mayo 2024)",
       },
       {
-        title: "Desarrollo de un sitio web de E-commerce",
+        title: "Desarrollo webs de E-commerce",
       },
+      {
+        title: "Desarrollo Single Page ",
+      }
     ],
   },
   {
