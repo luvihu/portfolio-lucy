@@ -11,7 +11,7 @@ export function Navbar() {
 
     return (
         <motion.div
-            className="fixed top-0 z-20 flex flex-row items-center w-full mt-8 ml-14 md:justify-center md:h-20 md:max-w-md"
+            className="fixed top-0 z-20 flex flex-row items-center w-full mt-4 ml-14 md:justify-center md:h-20 md:max-w-md"
             variants={fadeIn('right', 0.5)} initial="hidden" animate="show" exit="hidden"
         >
             <div className="flex items-center justify-start w-auto px-1 py-2 md:py-5 md:px-8 md:flex-row md:justify-center md:gap-x-20 gap-x-10 mt-10 bg-white/10 backdrop-blur-sm md:rounded-full">

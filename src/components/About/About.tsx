@@ -10,9 +10,11 @@ export function About() {
     const [index, setIndex] = useState(0)
 
     return (
-        <div className="min-h-screen px-6 mx-6 md:mt-4 md:flex md:max-w-5xl items-center">
-            <Avatar />
+        <div className="min-h-screen px-6 mx-6 md:mt-9 md:flex md:max-w-7xl items-center">
+           <div className="">
 
+            <Avatar />
+           </div>
             <motion.div
                 initial={motionTransitionsAbout.initial}
                 animate={motionTransitionsAbout.animate}
@@ -20,7 +22,8 @@ export function About() {
                 className="md:ml-4"
             >
                 <h1 className="mb-2 md:text-xl mt-7"><br /></h1>
-                 <p className="mb-6">Acerca de mí: <br/>Soy Licenciada en Economía, sin embargo, siempre sentí gran interés y admiración por la programación, lo cual me impulsó a 
+                
+                 <p className="mb-6 md:mr-56 ">Acerca de mí: <br/>Soy Licenciada en Economía, sin embargo, siempre sentí gran interés y admiración por la programación, lo cual me impulsó a 
                     adentrarme en el mundo de la tecnología, luego de un buen tiempo siendo autodidacta decidí afianzar mis conocimientos en 
                     el bootcamp Henry donde me gradué luego de mas de +800hs de aprendizaje.
                     Mi experiencia en las ciencias económicas aporta una perspectiva versátil para abordar desafíos, y estoy emocionada por seguir 
@@ -28,8 +31,8 @@ export function About() {
                     Estoy en constante estudio, me gusta aprender nuevas tecnologías y mejorar las que ya conozco, creo que lo más hermoso 
                     de este campo es que está en constante evolución y siempre hay algo más que aprender, es por ello que puedo contribuir 
                     significativamente en cualquier entorno.
-                    </p>
-               
+                 </p>
+                
                
                 <div className="flex flex-col mb-3 md:flex-row justify-between md:mt-3 md:mb-2">
                     {dataAboutSkills.map((dataText, itemIndex) => {
@@ -51,7 +54,7 @@ export function About() {
                         )
                     })}
                 </div>
-                <div className="max-w-6xl p-2 mx-auto bg-secondary/20 rounded-xl">
+                <div className="max-w-12xl p-2 mx-auto bg-secondary/20 rounded-xl">
                     {dataAboutSkills[index].skills.map((items, index) => (
                         <div key={index} className="flex justify-start max-w-md gap-4 mx-auto">
                             <span>{items.title}</span>
