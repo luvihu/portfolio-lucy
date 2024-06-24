@@ -6,11 +6,11 @@ import { certificados } from './certificados';
 
 export function Certificates() {
     return (
-        <div className="md:inline-block items-center h-screen">
+        <div className=" flex flex-col items-center min-h-screen">
                         
-            <div className="flex flex-col text-center mt-36 md:text-center ">
+            <div className="flex flex-col text-center mt-36 md:mt-32 ">
                 <motion.h1 
-                   className="mb-4 text-3xl"
+                   className="mb-4 text-3xl md:text-4xl lg:text-4xl"
                    variants={fadeIn('up', 0.5)}
                     initial="hidden"
                     animate="show"
@@ -18,7 +18,7 @@ export function Certificates() {
                     Mis <span className="text-secondary">certificados</span>
                 </motion.h1>
             </div>
-            <div className="flex text-center justify-center gap-14 flex-wrap p-4 ml-8">
+            <div className="flex flex-wrap justify-center gap-10 p-4">
               {certificados.map((certificado, index) => (
                 <motion.div
                     key={index}
@@ -26,7 +26,7 @@ export function Certificates() {
                     initial="hidden"
                     animate="show"
                     exit="hidden"
-                    className="relative md:inline-block max-w-6xl p-5 bg-secondary/20 rounded-md"
+                    className="w-full md:w-1/2 lg:w-1/3 p-5 bg-secondary/20 rounded-md"
                 >
                 <Image
                 src={certificado.image}
@@ -34,10 +34,10 @@ export function Certificates() {
                 height={300}
                 alt="Certificado"
                 priority
-                className="md:ml-6"
+                className="rounded"
                 />
                <p className="text-center mt-2 text-secondary">{certificado.text}</p>
-               <div className="flex md:text-center mt-2 max-w-md max-h-20 md:pl-8 md:ml-4">{certificado.description}</div>
+               <div className="text-center mt-2">{certificado.description}</div>
                </motion.div>
                ))}
             </div>

@@ -1,6 +1,11 @@
 
 export const certificados = [
   {
+    image: '/assets/certf-mongoDB.jpg',
+    text: 'Certificado Mongo',
+    description: 'Obtuve habilidades para la creación de aplicaciones modernas con Node.js, utilizando  MongoDb como base de datos.'
+  },
+  {
     image: '/assets/certificado-henry-fullStack.jpg',
     text: 'Certificado Full Stack - Henry',
     description: 'En el curso de desarrollo full stack, adquirí habilidades avanzadas en el ámbito del desarrollo web, abarcando tanto el desarrollo del lado del cliente como del servidor.'
@@ -14,10 +19,6 @@ export const certificados = [
     image: '/assets/certf-figma.png',
     text: 'Certificado Figma',
     description: 'Obtuve habilidades en la creación de prototipos de interfaz al utilizar Figma, una poderosa herramienta de diseño colaborativo que facilita el trabajo en equipo.'
-  },
-  {
-    image: '/assets/certif-Flexbox.png',
-    text: 'Certificado Flexbox Layout',
-    description: 'Aprendí a estructurar y organizar elementos en un diseño flexible de manera eficiente, fluida y receptiva.'
-  },
+  }
+ 
 ];
