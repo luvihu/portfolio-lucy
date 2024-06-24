@@ -28,8 +28,7 @@ export function About() {
                     Estoy en constante estudio, me gusta aprender nuevas tecnologías y mejorar las que ya conozco, creo que lo más hermoso 
                     de este campo es que está en constante evolución y siempre hay algo más que aprender, es por ello que puedo contribuir 
                     significativamente en cualquier entorno.
-                    Mi campo de interes principal es el desarrollo Fronted.
-                    Actualmente estoy aprendiendo TypeScript y me interesa aprender Angular en un futuro. </p>
+                    </p>
                
                
                 <div className="flex flex-col mb-3 md:flex-row justify-between md:mt-4 md:mb-2">
