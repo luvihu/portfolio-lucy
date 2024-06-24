@@ -31,7 +31,7 @@ export function About() {
                     </p>
                
                
-                <div className="flex flex-col mb-3 md:flex-row justify-between md:mt-4 md:mb-2">
+                <div className="flex flex-col mb-3 md:flex-row justify-between md:mt-3 md:mb-2">
                     {dataAboutSkills.map((dataText, itemIndex) => {
                         const { id, text } = dataText;
 
@@ -53,7 +53,7 @@ export function About() {
                 </div>
                 <div className="max-w-6xl p-2 mx-auto bg-secondary/20 rounded-xl">
                     {dataAboutSkills[index].skills.map((items, index) => (
-                        <div key={index} className="flex justify-center max-w-md gap-4 mx-auto">
+                        <div key={index} className="flex justify-start max-w-md gap-4 mx-auto">
                             <span>{items.title}</span>
                         </div>
                     ))}
